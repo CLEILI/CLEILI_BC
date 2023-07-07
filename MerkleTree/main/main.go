@@ -2,6 +2,7 @@ package main
 
 import (
 	"bc/merkle"
+	"fmt"
 )
 
 func main() {
@@ -15,4 +16,5 @@ func main() {
 	}
 	tree := merkle.NewMerkletree(data)
 	merkle.ShowMerkletree(tree.Rootnode)
+	fmt.Printf("done")
 }
