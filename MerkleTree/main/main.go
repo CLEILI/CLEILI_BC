@@ -1,7 +1,7 @@
 package main
 
 import (
-	"bc/merkle"
+	"CLEILI_BC/MerkleTree/merkle"
 	"fmt"
 )
 
